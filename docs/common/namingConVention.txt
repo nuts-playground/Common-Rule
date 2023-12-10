@@ -1,4 +1,4 @@
-[ 폴더 ] (이미 만들어진 저장소는 수정하거나 그대로 둬도 된다.)
+[ 폴더 ] (이미 만들어진 저장소는 수정하거나 그대로 둬도 된다. 자바의 경우 패키지)
 
 1. 영어 소문자로만 작성한다.
     ex)
@@ -28,14 +28,15 @@
     ex)
         java: public UserInfo userInfo;
         ts:   let userInfo;
-2. ENUM, 상수(const) 는 대문자로 작성한다.
+2. ENUM, 상수(const, final) 는 대문자로 작성한다.
     ex)
         java: public final String NAME = "nuts";
         ts:   const NAME = 'nuts';
-3. 함수명은 소문자로 시작한다.
+3. 함수명(메소드)은 소문자로 시작한다.
+   자바는 동사로 시작한다.
     ex)
-        java: public void onCreate() {}
+        java: public void getUser() {}
         ts:   function onCreate() {}
-4. 클래스명은 UpperCamelCase를 적용한다.
+4. 클래스명은 UpperCamelCase(PascalCase)를 적용한다.
     ex)
         public class MainActivity {}, export class MainController {}
