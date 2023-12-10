@@ -30,7 +30,7 @@
         ts:   let userInfo;
 2. ENUM, 상수(const) 는 대문자로 작성한다.
     ex)
-        java: public String NAME = "nuts";
+        java: public final String NAME = "nuts";
         ts:   const NAME = 'nuts';
 3. 함수명은 소문자로 시작한다.
     ex)
