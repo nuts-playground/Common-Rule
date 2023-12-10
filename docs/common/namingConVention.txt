@@ -1,0 +1,41 @@
+[ 폴더 ] (이미 만들어진 저장소는 수정하거나 그대로 둬도 된다.)
+
+1. 영어 소문자로만 작성한다.
+    ex)
+        common
+2. 특수문자, 공백은 쓰지 않는다. ( - 제외 )
+    ex)
+        backend(o), $backend(x)
+3. 단어와 단어의 구분은 [ - ](HYPHEN)으로 하거나 안해도 된다.
+    ex)
+        common-rule or commonrule
+
+[ 파일 ]
+
+1. 영어 소문자로만 작성한다. (자바는 클래스 자체가 파일이기 때문에 꼭 안지켜도 된다.)
+    ex)
+        test.ts
+2. 특수문자, 공백은 쓰지 않는다. ( -, . 제외 )
+    ex)
+        test.ts(o), $test.ts(x)
+3. 단어와 단어의 구분은 [ - ](HYPHEN), [ . ](dot) 선택해서 자유롭게 구분한다.
+    ex)
+        user-join-entity.ts or user.join.entity.ts
+
+[ 코드 ]
+
+1. 변수는 camelCase를 적용한다.
+    ex)
+        java: public UserInfo userInfo;
+        ts:   let userInfo;
+2. ENUM, 상수(const) 는 대문자로 작성한다.
+    ex)
+        java: public String NAME = "nuts";
+        ts:   const NAME = 'nuts';
+3. 함수명은 소문자로 시작한다.
+    ex)
+        java: public void onCreate() {}
+        ts:   function onCreate() {}
+4. 클래스명은 UpperCamelCase를 적용한다.
+    ex)
+        public class MainActivity {}, export class MainController {}
